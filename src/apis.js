@@ -1,6 +1,6 @@
 import { json } from "react-router-dom";
 
-const api = 'http://localhost:8010'
+const api = 'https://backend-db-3iwb.onrender.com'
 const getMentorData = async()=>{
  const responce = await fetch(`${api}/mentor`)
  return await responce.json();
